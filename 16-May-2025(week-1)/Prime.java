@@ -17,10 +17,10 @@ class Prime{
             }
         }
         if(count==0){
-            System.out.println("the prim numeber is "+n);
+            System.out.println("the prim numeber is "+num);
         }
         else{
-            System.out.println("the  NOt prim numeber is "+n);
+            System.out.println("the  NOt prim numeber is "+num);
 
         } 
     }

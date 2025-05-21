@@ -1,4 +1,3 @@
-package Home_work;
 import java.util.Scanner;
 
 class Prime_numer{
@@ -48,17 +47,20 @@ public class prime_2 {
         {
             if(num1-num2 ==2 || num2-num1==2)
             {
-                System.out.println("The is two prime numer");
+                System.out.println("These are twin prime numbers");
+
             }
             else
             {
                 System.out.println("The is not two prime numer");
+
             }
 
         }
         else
         {
             System.out.println("The is not two prime numer");
+
         }
         
 

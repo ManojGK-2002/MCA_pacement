@@ -31,7 +31,7 @@ class check{
 public class PerfectNumbe {
     int num;
     public static void main(String[] args) {
-         int num=28;
+         int num=24;
          check p1=new check(num);
 
        // System.out.println(sum);

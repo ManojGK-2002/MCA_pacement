@@ -1,3 +1,21 @@
+/* Title Case Converter
+Question:
+Write a class TitleCase to convert each word in a sentence to Title Case (i.e., the first letter of each word is capitalized).
+
+Class Name: TitleCase
+Data Members:
+
+String line;
+
+Member Methods:
+
+Constructor to assign the string
+
+void convert() – displays the sentence in title case
+
+Sample Input/Output:
+Input:  java is powerful  
+Output: Java Is Powerful*/
 class TitleCase{
     String line;
 

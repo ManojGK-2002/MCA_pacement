@@ -5,24 +5,18 @@ public class Overloading {
  
     public void display(String str,int p)
     {
-        if(p==1)
-        {
-             for(int i=0;i<str.length();i++)
+         for(int i=0;i<str.length();i++)
             {
                 char ch=str.charAt(i);
-                if(Character.isUpperCase(ch))
+                if(p==1 && Character.isUpperCase(ch))
                 {   
                     System.out.println("upper case one "+ch);
                 }
-                else{
-                    System.out.println("lower casw  "+ch);
-                }
+                else if(p!=1 && Character.isLowerCase(ch)
+                {
+                         System.out.println(ch);
+                 }
             }
-        }
-        else{
-            System.out.println("the p is not equal to 1");
-        }
-        
     }  
     public void display(String str,char cha)
     {
